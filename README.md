@@ -1,7 +1,24 @@
 
 # StadiumGPT AI — FIFA World Cup 2026
+![Next.js](https://img.shields.io/badge/Next.js-13-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Firebase](https://img.shields.io/badge/Firebase-Authentication-orange?logo=firebase)
+![Vitest](https://img.shields.io/badge/Tested%20with-Vitest-6E9F18?logo=vitest)
+![GitHub Actions](https://img.shields.io/badge/CI-Passing-brightgreen?logo=githubactions)
 
 The Intelligent AI Companion for FIFA World Cup 2026. A production-quality, full-stack web application for stadium operations, fan navigation, crowd intelligence, emergency response, and AI-powered assistance.
+
+## Project Highlights
+
+- AI-powered stadium assistant for FIFA World Cup 2026
+- Real-time crowd intelligence and risk monitoring
+- Smart navigation with accessibility support
+- Emergency response and evacuation assistance
+- Firebase Authentication with Google Sign-In
+- Google Gemini AI integration
+- Responsive glassmorphism UI
+- Automated testing using Vitest
+- Continuous Integration with GitHub Actions
 
 ## Features
 
@@ -161,7 +178,79 @@ npm run start     # Start production server
 npm run lint      # ESLint
 npm run typecheck # TypeScript type checking
 ```
+## Testing
 
+This project includes automated unit and component testing using **Vitest** and **React Testing Library**.
+
+Run tests:
+
+```bash
+npm test
+```
+
+Run tests with coverage:
+
+```bash
+npm run coverage
+```
+
+The project currently includes **41 automated tests** covering:
+
+- Login page
+- Dashboard
+- AI Assistant
+- Crowd Monitoring
+- Emergency Dashboard
+- Navigation
+- Transportation
+- API Routes
+- Shared UI Components
+
+## Continuous Integration
+
+GitHub Actions automatically performs:
+
+- Dependency installation
+- Type checking
+- Test execution
+- Build verification
+
+The workflow runs automatically on every push to the repository.
+
+## Future Enhancements
+
+- Live IoT crowd sensor integration
+- Indoor GPS navigation
+- Multi-language voice assistant
+- Offline navigation mode
+- Smart parking guidance
+- Predictive crowd analytics
+- Push notifications for emergencies
+  
 ## License
 
-Built for FIFA World Cup 2026.
+This project was developed as part of a hackathon/academic project inspired by FIFA World Cup 2026 stadium operations.
+
+It is intended for educational and demonstration purposes.
+
+## Screenshots
+
+### Login
+
+<img width="770" height="974" alt="Screenshot 2026-07-14 223425" src="https://github.com/user-attachments/assets/b4a6ebf1-b65d-4707-a681-4503d9e2a640" />
+
+### Dashboard
+
+<img width="933" height="978" alt="Screenshot 2026-07-14 223457" src="https://github.com/user-attachments/assets/cf5a9c22-280b-4d7d-8524-26e5bfb8a118" />
+<img width="931" height="981" alt="Screenshot 2026-07-14 223511" src="https://github.com/user-attachments/assets/9d80b091-91fc-4505-a5f3-e37ced432fca" />
+<img width="922" height="968" alt="Screenshot 2026-07-14 223521" src="https://github.com/user-attachments/assets/f17f60cd-47c7-4da1-a5cd-45c58cdea8b1" />
+
+### AI Assistant
+
+<img width="956" height="988" alt="Screenshot 2026-07-14 223539" src="https://github.com/user-attachments/assets/75947f7a-0ee6-4b1f-9d35-e431252fecc0" />
+
+### Crowd Monitoring
+
+<img width="930" height="989" alt="Screenshot 2026-07-14 223558" src="https://github.com/user-attachments/assets/b3f3c437-59fc-42d5-9553-6a1984bccfd0" />
+<img width="929" height="976" alt="Screenshot 2026-07-14 223611" src="https://github.com/user-attachments/assets/cd8499c2-06bf-4d97-999d-9d09c70883fe" />
+<img width="932" height="996" alt="Screenshot 2026-07-14 223622" src="https://github.com/user-attachments/assets/7bdce174-b78c-49b8-8d7d-53fcbb4e4785" />
