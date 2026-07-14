@@ -1,3 +1,4 @@
+
 # StadiumGPT AI — FIFA World Cup 2026
 
 The Intelligent AI Companion for FIFA World Cup 2026. A production-quality, full-stack web application for stadium operations, fan navigation, crowd intelligence, emergency response, and AI-powered assistance.
